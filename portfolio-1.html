@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Skydome Aviation Main Website - Skydome Aviation</title>
+  <meta name="description" content="Portfolio details for Skydome Aviation Main Website project by Skydome Aviation">
+  <meta name="keywords" content="Skydome Aviation, Website Development, Skydome Aviation">
+
+  <!-- Favicons -->
+  <link href="assets/img/Brand Kit/icon_light.png" rel="icon">
+  <link href="assets/img/Brand Kit/icon_light.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+
+  <!-- Theme Initialization (prevents flash) -->
+  <script>
+    (function () {
+      const THEME_VERSION_KEY = 'skydome-theme-version';
+      const CURRENT_VERSION = '3';
+      if (localStorage.getItem(THEME_VERSION_KEY) !== CURRENT_VERSION) {
+        localStorage.removeItem('skydome-theme');
+        localStorage.setItem(THEME_VERSION_KEY, CURRENT_VERSION);
+      }
+      const theme = localStorage.getItem('skydome-theme') || 'light';
+      document.documentElement.setAttribute('data-theme', theme);
+    })();
+  </script>
+</head>
+
+<body class="portfolio-details-page">
+
+  <header id="header" class="header d-flex align-items-center fixed-top">
+    <div
+      class="header-container container-fluid container-xl position-relative d-flex align-items-center justify-content-between">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto me-xl-0">
+        <img src="assets/img/Brand Kit/logo.png" alt="Skydome Aviation Logo">
+      </a>
+
+
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html#hero">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#services">Services</a></li>
+          <li><a href="index.html#portfolio">Portfolio</a></li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+      <!-- Theme Toggle Button -->
+      <button class="theme-toggle" id="theme-toggle" aria-label="Toggle dark/light theme">
+        <i class="bi bi-moon-fill"></i>
+        <i class="bi bi-sun-fill"></i>
+      </button>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title dark-background" data-aos="fade">
+      <div class="container position-relative">
+        <h1>Skydome Aviation Main Website</h1>
+        <p>A modern, responsive website for SkyDome Aviation Pvt. Ltd. featuring seamless payment integration and
+          automated email workflows.</p>
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Portfolio Details</li>
+          </ol>
+        </nav>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-4">
+          <div class="col-lg-6" data-aos="fade-right">
+            <div class="portfolio-details-media">
+              <div class="main-image">
+                <div class="portfolio-details-slider swiper init-swiper" data-aos="zoom-in">
+                  <script type="application/json" class="swiper-config">
+                    {
+                      "loop": true,
+                      "speed": 1000,
+                      "autoplay": {
+                        "delay": 6000
+                      },
+                      "effect": "creative",
+                      "creativeEffect": {
+                        "prev": {
+                          "shadow": true,
+                          "translate": [0, 0, -400]
+                        },
+                        "next": {
+                          "translate": ["100%", 0, 0]
+                        }
+                      },
+                      "slidesPerView": 1,
+                      "navigation": {
+                        "nextEl": ".swiper-button-next",
+                        "prevEl": ".swiper-button-prev"
+                      }
+                    }
+                  </script>
+                  <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <img src="assets/img/portfolio/skydome-3.png" alt="Skydome Aviation Homepage" class="img-fluid">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="assets/img/portfolio/skydome-2.png" alt="Skydome Aviation Services" class="img-fluid">
+                    </div>
+                    <div class="swiper-slide">
+                      <img src="assets/img/portfolio/skydome-1.png" alt="Skydome Aviation Payment" class="img-fluid">
+                    </div>
+                  </div>
+                  <div class="swiper-button-prev"></div>
+                  <div class="swiper-button-next"></div>
+                </div>
+              </div>
+
+              <div class="thumbnail-grid" data-aos="fade-up" data-aos-delay="200">
+                <div class="row g-2 mt-3">
+                  <div class="col-4">
+                    <img src="assets/img/portfolio/skydome-3.png" alt="Gallery Image" class="img-fluid glightbox">
+                  </div>
+                  <div class="col-4">
+                    <img src="assets/img/portfolio/skydome-2.png" alt="Gallery Image" class="img-fluid glightbox">
+                  </div>
+                  <div class="col-4">
+                    <img src="assets/img/portfolio/skydome-1.png" alt="Gallery Image" class="img-fluid glightbox">
+                  </div>
+                </div>
+              </div>
+
+              <div class="tech-stack-badges" data-aos="fade-up" data-aos-delay="300">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Node.js</span>
+                <span>Express</span>
+                <span>Nodemailer</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6" data-aos="fade-left">
+            <div class="portfolio-details-content">
+              <div class="project-meta">
+                <div class="badge-wrapper">
+                  <span class="project-badge">Website Development</span>
+                </div>
+                <div class="date-client">
+                  <div class="meta-item">
+                    <i class="bi bi-calendar-check"></i>
+                    <span>2024</span>
+                  </div>
+                  <div class="meta-item">
+                    <i class="bi bi-buildings"></i>
+                    <span>SkyDome Aviation Pvt. Ltd.</span>
+                  </div>
+                </div>
+              </div>
+
+              <h2 class="project-title">Skydome Aviation Main Website</h2>
+
+              <div class="project-website">
+                <i class="bi bi-link-45deg"></i>
+                <a href="https://skydomeaviation.in/" target="_blank">skydomeaviation.in</a>
+              </div>
+
+              <div class="project-overview">
+                <p class="lead">
+                  A comprehensive website solution for SkyDome Aviation Pvt. Ltd., designed to elevate their digital
+                  presence with modern aesthetics, seamless payment integration, and automated business workflows.
+                </p>
+
+                <div class="accordion project-accordion" id="portfolio-details-projectAccordion">
+                  <div class="accordion-item" data-aos="fade-up">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#portfolio-details-collapse-1" aria-expanded="true" aria-controls="collapseOne">
+                        <i class="bi bi-clipboard-data me-2"></i> Project Overview
+                      </button>
+                    </h2>
+                    <div id="portfolio-details-collapse-1" class="accordion-collapse collapse show"
+                      data-bs-parent="#portfolio-details-projectAccordion">
+                      <div class="accordion-body">
+                        <p>We developed a modern, fully responsive website for SkyDome Aviation Pvt. Ltd., an aviation
+                          company focused on delivering excellence in their services. The website features 4 key pages
+                          including Home, Services, Contact, and About Us sections, each designed to showcase the
+                          company's aviation expertise and professional services.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item" data-aos="fade-up" data-aos-delay="100">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#portfolio-details-collapse-2" aria-expanded="false"
+                        aria-controls="collapseTwo">
+                        <i class="bi bi-exclamation-diamond me-2"></i> The Challenge
+                      </button>
+                    </h2>
+                    <div id="portfolio-details-collapse-2" class="accordion-collapse collapse"
+                      data-bs-parent="#portfolio-details-projectAccordion">
+                      <div class="accordion-body">
+                        <p>The client required a website that could handle online payments securely, automate email
+                          communications, and generate PDF documents dynamically. The solution needed to be fast,
+                          responsive across all devices, and integrate seamlessly with Razorpay payment gateway for
+                          their business transactions.</p>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#portfolio-details-collapse-3" aria-expanded="false"
+                        aria-controls="collapseThree">
+                        <i class="bi bi-award me-2"></i> The Solution
+                      </button>
+                    </h2>
+                    <div id="portfolio-details-collapse-3" class="accordion-collapse collapse"
+                      data-bs-parent="#portfolio-details-projectAccordion">
+                      <div class="accordion-body">
+                        <p>We built a robust full-stack solution using Node.js and Express for the backend, with HTML,
+                          CSS, and JavaScript for a responsive frontend. We integrated Razorpay for secure payment
+                          processing, implemented Nodemailer for email automation, and developed custom PDF generation
+                          functionality to streamline their business operations.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="project-features" data-aos="fade-up" data-aos-delay="300">
+                <h3><i class="bi bi-stars"></i> Key Features</h3>
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <ul class="feature-list">
+                      <li><i class="bi bi-check2-circle"></i> 4 Pages (Home/Services/Contact/About Us)</li>
+                      <li><i class="bi bi-check2-circle"></i> Contact Form</li>
+                      <li><i class="bi bi-check2-circle"></i> Razorpay Payment Integration</li>
+                    </ul>
+                  </div>
+                  <div class="col-md-6">
+                    <ul class="feature-list">
+                      <li><i class="bi bi-check2-circle"></i> Responsive Design</li>
+                      <li><i class="bi bi-check2-circle"></i> PDF Generation</li>
+                      <li><i class="bi bi-check2-circle"></i> Email Automation</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="cta-buttons" data-aos="fade-up" data-aos-delay="400">
+                <a href="https://skydomeaviation.in/" target="_blank" class="btn-view-project">View Live Project</a>
+                <a href="portfolio-2.html" class="btn-next-project">Next Project <i class="bi bi-arrow-right"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Details Section -->
+
+  </main>
+
+  <footer id="footer" class="footer">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <img src="assets/img/Brand Kit/logo.png" alt="Skydome Aviation" class="footer-logo-img">
+          </a>
+          <p>From concept to launch, we create modern websites that engage users and deliver results. Every project is
+            built with scalability, performance, and usability in mind.</p>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="index.html#hero">Home</a></li>
+            <li><a href="index.html#about">About us</a></li>
+            <li><a href="index.html#services">Services</a></li>
+            <li><a href="index.html#portfolio">Portfolio</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+            <li><a href="privacy-policy.html">Privacy Policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Our Services</h4>
+          <ul>
+            <li><a href="index.html#services">Custom Web & Portals</a></li>
+            <li><a href="index.html#services">User UI/UX Design</a></li>
+            <li><a href="index.html#services">Cloud Hosting & Deploy</a></li>
+            <li><a href="index.html#services">Aviation ERP & LMS</a></li>
+            <li><a href="index.html#services">System Maintenance</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <h4>Contact Us</h4>
+          <p><strong>Phone:</strong> <span>+91 93597 37221</span></p>
+          <p><strong>Email:</strong> <span>contact@skydomeaviation.in</span></p>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="copyright text-center mt-4">
+      <p>© 2025 <strong class="px-1 sitename">Skydome Aviation.</strong> All Rights Reserved.</p>
+    </div>
+
+  </footer>
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
